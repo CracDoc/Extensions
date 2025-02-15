@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "CredsManager",
+    "version": "1.0",
+    "description": "Store and autofill credentials securely.",
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
