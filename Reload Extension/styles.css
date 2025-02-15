@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    background: linear-gradient(135deg, #2e8b57, #3cb371);
+    color: white;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#startReload {
+    background: #28a745;
+    color: white;
+}
+
+.stop-btn {
+    background: #dc3545;
+    color: white;
+}
