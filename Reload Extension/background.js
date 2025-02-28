@@ -27,3 +27,4 @@ function updateBadge(time) {
     chrome.action.setBadgeText({ text: String(time) });
     chrome.action.setBadgeBackgroundColor({ color: "#FF0000" });
 }
+
